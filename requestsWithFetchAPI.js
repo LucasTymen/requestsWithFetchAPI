@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////////
-// fetch GET
+// fetch GET (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 fetch('http://api-to-call.com/endpoint').then(response => {
   if (response.ok) {
     return response.json();
